@@ -1,0 +1,88 @@
+<?php
+//PROJECT / WEBSITE NAME
+define('PROJ_NAME', 'www.open.org.in');
+
+// DEFAULT FOLDER NAME //
+
+define('PROJ_FOLDERNAME', ''); // to be defined manually according to the folder name //
+
+// DATABASE //
+
+define('PROJ_DBHOSTNAME','localhost');
+define('PROJ_DBNAME','openorgi_openorgin');
+define('PROJ_DBUSER','openorgi_openorg');
+define('PROJ_DBPASS','WxIO;50Da?D)');
+define('PROJ_DBTYPE','mysqli');
+
+
+// ERROR REPORTING AND SETTINGS
+
+define('PROJ_ERROR_REPORTING_SWITCH', E_ALL | E_STRICT);
+
+
+// PATHS TO TEMPLATES, BLOCKS, MODULE FOLDERS
+if(PROJ_FOLDERNAME == ''){
+define('PROJ_MAIN_DIR', PROJ_DOCUMENTROOT);
+define('PROJ_TEMPLATES_DIR', PROJ_DOCUMENTROOT._S.'templates');
+define('PROJ_BLOCKS_DIR', PROJ_DOCUMENTROOT._S.'blocks');
+define('PROJ_MODULES_DIR', PROJ_DOCUMENTROOT._S.'modules');
+define('PROJ_MAINSYSTEM_JS_DIR', PROJ_DOCUMENTROOT._S.'functions'._S.'js');
+define('PROJ_3RDPARTY_DIR', PROJ_DOCUMENTROOT._S.'3rdparry');
+define('PROJ_MAIN_WWW_DIR', PROJ_HOSTNAME);
+define('PROJ_TEMPLATES_WWW_DIR', PROJ_HOSTNAME._WS.'templates');
+define('PROJ_BLOCKS_WWW_DIR', PROJ_HOSTNAME._WS.'blocks');
+define('PROJ_MODULES_WWW_DIR', PROJ_HOSTNAME._WS.'modules');
+define('PROJ_MAINSYSTEM_JS_WWW_DIR', PROJ_HOSTNAME._WS.'functions'._WS.'js');
+define('PROJ_3RDPARTY_WWW_DIR', PROJ_HOSTNAME._WS.'3rdparty');
+}else{
+define('PROJ_MAIN_DIR', PROJ_DOCUMENTROOT.PROJ_FOLDERNAME);
+define('PROJ_TEMPLATES_DIR', PROJ_DOCUMENTROOT.PROJ_FOLDERNAME._S.'templates');
+define('PROJ_BLOCKS_DIR', PROJ_DOCUMENTROOT.PROJ_FOLDERNAME._S.'blocks');
+define('PROJ_MODULES_DIR', PROJ_DOCUMENTROOT.PROJ_FOLDERNAME._S.'modules');
+define('PROJ_MAINSYSTEM_JS_DIR', PROJ_DOCUMENTROOT.PROJ_FOLDERNAME._S.'functions'._S.'js');
+define('PROJ_3RDPARTY_DIR', PROJ_DOCUMENTROOT.PROJ_FOLDERNAME._S.'3rdparty');
+define('PROJ_MAIN_WWW_DIR', PROJ_HOSTNAME._WS.PROJ_FOLDERNAME);
+define('PROJ_TEMPLATES_WWW_DIR', PROJ_HOSTNAME._WS.PROJ_FOLDERNAME._WS.'templates');
+define('PROJ_BLOCKS_WWW_DIR', PROJ_HOSTNAME._WS.PROJ_FOLDERNAME._WS.'blocks');
+define('PROJ_MODULES_WWW_DIR', PROJ_HOSTNAME._WS.PROJ_FOLDERNAME._WS.'modules');
+define('PROJ_MAINSYSTEM_JS_WWW_DIR', PROJ_HOSTNAME._WS.PROJ_FOLDERNAME._WS.'functions'._WS.'js');
+define('PROJ_3RDPARTY_WWW_DIR', PROJ_HOSTNAME._WS.PROJ_FOLDERNAME._WS.'3rdparty');
+}
+
+
+// OVERRIDE ADMIN TEMPLATE WHEN ADMIN SESSION IS ON
+
+define('PROJ_OVERRIDE_ADMIN_TEMPLATE', 1);
+
+
+// DEFAULT FOLDERS AND FILES
+
+define('PROJ_DEFAULT_FOLDER_FILE', 'index.php');
+define('PROJ_DEFAULT_CONTROLLER_FILE', 'controller.php');
+define('PROJ_DEFAULT_ACTIONVIEWS_FOLDER', 'actionviews');
+define('PROJ_ADMIN_TEMPLATE_DIR', 'admin');
+
+
+
+//SEO FRIENDLY URLS (0-Normal, 1-SEO)
+define('PROJ_SEO_FRIENDLY_URLS', 0);
+
+//SALT
+define('PROJ_SEC_SALT', 'Micro~Astrology@Astrology$5s67%^#%');
+
+
+//SESSION TIME LIMIT
+define('PROJ_SESSION_TIME_LIMIT', 3600);
+
+
+//HTML EDITOR TINYMCE OR CKEDITOR
+define('PROJ_HTML_EDITOR', 'ckeditor');
+
+
+// TIME ZONE
+define('PROJ_TIME_ZONE', 'Asia/Calcutta');
+
+// ALLOWED HTML EDITOR HTML TAGS // COMMA SEPERATED // PLEASE ADD ANY NEW TAG CAREFULLY, IT MAY LED TO SECURITY ISSUES IN YOUR PROJECT
+define('PROJ_ALLOWED_HTML_TAGS', '<a>,<blockquote>,<div>,<em>,<h1>,<h2>,<h3>,<h4>,<h5>,<h6>,<img>,<li>,<p>,<span><strong>,<sub>,<sup>,<strike>,<u>,<ul>');
+
+?>

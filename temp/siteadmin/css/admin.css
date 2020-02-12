@@ -1,0 +1,149 @@
+body {
+	background-color: #E2E5E9;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.heading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background-color: #6666CC;
+}
+.normaltext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.headingorange {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	background-color: #FF3300;
+}
+
+.headinglightorange {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	background-color: #E37A25;
+}
+
+.headinggreen {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	background-color: #003300;
+}
+.headingpurple {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #330033;
+	font-weight: bolder;
+}
+.smallitalic {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	font-weight: normal;
+}
+.normal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+.bgnormalgray {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #CCCCCC;
+}
+.bgnormalwhite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+.redtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF0000;
+	font-weight: bold;
+}
+.greentext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #006600;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	/*background-color: #FFFFCC;*/
+}
+
+.ahrefpink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #FFAAAA;
+}
+
+.ahrefyellow {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #FFFFCC;
+}
+
+
+.ahrefwhite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.h3simple{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.textareawithyellowbg{
+background:#FFFF2A;
+border:2px solid #FF0000;
+}
+
+/*pagging*/
+div.numbers{ padding:3px 4px 0px 4px; margin:7px 7px 0px 0px; min-width:12px; height:17px; text-align:center; background:#d8d8d8; float:right; }
+div.numbers a{min-width:12px; height:17px; text-align:center; background:#d8d8d8;  }
+div.numbers a:hover{  min-width:12px; height:17px; text-align:center; text-decoration:underline;}
+
+
+.paging{ padding:3px 4px 0px 4px; margin:7px 2px 0px 0px; min-width:12px; height:17px; text-align:center; /*background:#d8d8d8;*/ float:right; display:block;}
+.paging ul{margin: 0;padding: 0;list-style: none; }
+.paging li{ margin: 0 0 0 5px; padding: 0 0 0 0;line-height: 24px; overflow:hidden; float:left;}
+
+.paging a{margin:0 0 0 0; padding:0 5px 0 5px; font-family:Arial, Helvetica, sans-serif; font-size:12px; background:#f1f1f1; display:block; overflow:hidden; white-space:nowrap }
+.paging a:hover{margin:0 0 0 0; padding:0 5px 0 5px; font-family:Arial, Helvetica, sans-serif; font-size:12px; background:#d8d8d8; display:block; overflow:hidden; white-space:nowrap}
+.paging1 a:active{margin:0 0 0 0; padding:0 5px 0 5px; font-family:Arial, Helvetica, sans-serif; font-size:12px; background:#1f63ce; display:block; overflow:hidden; white-space:nowrap}
+.paging1 a:visited{margin:0 0 0 0; padding:0 5px 0 5px; font-family:Arial, Helvetica, sans-serif; font-size:12px; background:#bae8fc; display:block; overflow:hidden; white-space:nowrap}
+.pagingselected{background:#000000;}
+a.pagingselected {background:#d8d8d8;}
